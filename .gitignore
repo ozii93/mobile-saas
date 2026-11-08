@@ -1,14 +1,46 @@
+# Dependencies
 node_modules/
 .expo/
 dist/
 web-build/
 
+# AI Assistants & Internal Agent Files
+AGENTS.md
+agents.md
+*agent*.md
+*AGENT*.md
+.agents/
+.ai/
+.gemini/
+.cursor/
+.windsurf/
+.clinerules*
+.copilot/
+*.prompt
+*.prompt.md
+skills-lock.json
+
+# Environment & Secret Credentials
+.env
+.env.*
+*.env
+auth.json
+credentials.json
+google-services.json
+GoogleService-Info.plist
+*.pem
+*.key
+*.p12
+*.pfx
+*.pkcs12
+*.jks
+release.keystore
+*.release.keystore
+my-release-key.keystore
+
 # Native
 *.orig.*
 [a-z0-9]{32}.side
-.env
-.env.local
-.env.*.local
 
 # Android
 android/.gradle/
