@@ -1,0 +1,44 @@
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+[a-z0-9]{32}.side
+.env
+.env.local
+.env.*.local
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.cxx/
+android/local.properties
+android/*.iml
+android/.idea/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata
+ios/*.xcodeproj/xcuserdata
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

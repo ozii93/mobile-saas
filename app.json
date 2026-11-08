@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SIAP Multi-SaaS (POS & Laundry)",
+    "slug": "multiple-saas-mobile",
+    "version": "1.0.0",
+    "description": "Aplikasi mobile multi-tenant terpadu untuk operasional POS Kasir, Laundry, dan SaaS Core Platform.",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "multiplesaas",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.multiplesaas.mobile"
+    },
+    "android": {
+      "package": "com.multiplesaas.mobile",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#2563eb"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ]
+  }
+}
